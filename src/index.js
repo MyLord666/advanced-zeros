@@ -15,9 +15,9 @@ module.exports = function getZerosCount(number, base) {
     }
   }
 
-  while (num > 0) {
-    num = num / divisor ^ 0;
-    zeros += num;
+  while (number > 0) {
+    number = number / divisor ^ 0;
+    zeros += number;
   }
   return parseInt(zeros / remainder);
 }
